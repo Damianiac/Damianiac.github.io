@@ -14,5 +14,6 @@ h1{
 
 .a:hover {
     background-color: #00e1ff;
-    margin: 50px
+    margin: 50px;
+    border: 30px solid red
     }
