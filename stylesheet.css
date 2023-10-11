@@ -1,0 +1,13 @@
+h1{
+    color: blue
+}
+
+.redClass {
+    color:red
+}
+
+#thisIsAnID {
+
+    color: rgba(125, 125, 255, .75)
+
+} 
