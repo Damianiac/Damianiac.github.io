@@ -8,12 +8,12 @@ h1{
 
 #thisIsAnID {
 
-    color: rgba(125, 125, 255, .75)
-
+    color: rgba(125, 125, 255, .75);
+    margin: 50px;
+    border: 30px solid red
 } 
 
 .a:hover {
-    background-color: #00e1ff;
-    margin: 50px;
-    border: 30px solid red
+    color: #00e1ff;
+
     }
