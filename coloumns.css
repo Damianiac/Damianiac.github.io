@@ -1,0 +1,20 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    flex-direction : row;
+}
+.left{
+    flex: 1;
+    text-align: center;
+}
+
+.middle{
+    flex: 1;
+    text-align: center;
+}
+
+.right{
+    flex: 1;
+    text-align: center;
+}

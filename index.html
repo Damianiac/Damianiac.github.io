@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-
-        <link rel="stylesheet" href = "stylesheet.css">
-        <meta name="keywords" content="Damian, personal, website">
+        <meta charset="UTF-8">
+        <meta name="vieport", content="width=device-width, inital-scale=1.0">
+        <title>Coloumns</title>
+        <link rel="stylesheet" href="coloumns.css">
+        <script src = "coloumns.js"></script>
     </head>
 
     <body>
+        <div class = "left">
+            <p>left side</p>
+            <input id="startGameButton" type="button" value="Start Game?" onclick="startGame();" />
+        </div>
+        <div class = "middle">
+            <h1>Coloumns</h1>
+            <canvas id="board"></canvas>
+            <p>Your Points:</p>
+            <p id="pointstext"> </p>
+        </div>
+        <div id="leaderBoard" class = "right">
+            <p>LeaderBoard</p>
+        </div>
         
-    
-        <div>
-        <h1>Section 1</h1>
-
-            <a href = "https://www.google.com/search?q=Minesweeper&rlz=1C1CHBF_enUS905US905&oq=Minesweeper&gs_lcrp=EgZjaHJvbWUyCwgAEEUYJxg5GIoFMgsIARBFGCcYOxiKBTIGCAIQRRhAMg0IAxAAGIMBGLEDGIAEMgkIBBAAGEMYigUyDwgFEAAYQxiDARixAxiKBTIJCAYQABhDGIoFMgQIBxAF0gEIMjIxMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">
-                Take me to Minesweeper gosh darn it!
-            </a>
-
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvjQFpFtIYwsX2a2P4lByIwJRIdKcq7rprcA&usqp=CAU" alt="no funny cat ">
-        </div>
-
-        <div>
-        <h1>Section 2</h1>
-        <p class = "redClass">I'm in red class</p>
-        <p class = "redClass">So am I</p>
-        <p id = "thisIsAnID">I have an ID</p>
-        </div>
-
     </body>
-</html>
 
+</html>
